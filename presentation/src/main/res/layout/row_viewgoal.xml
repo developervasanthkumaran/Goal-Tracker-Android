@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/goalCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:padding="30dp"
+                android:id="@+id/goals"
+                android:textSize="40sp"
+                android:textColor="@color/TextColor"
+                android:hint="@string/goal_statement"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
